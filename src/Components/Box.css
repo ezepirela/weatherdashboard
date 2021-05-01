@@ -1,0 +1,22 @@
+.content__card{
+	/*background-color: #1E213A !important;*/
+	/*color: #E7E7EB !important;*/
+	color: rgba(0,0,0,0.8);
+	box-shadow: 2px 2px 8px #888888 !important;
+}
+.content__cardFooter{
+	font-size: 0.8rem !important
+}
+.content__cardTitle{
+	display: flex;
+	justify-content: center;
+}
+.content__cardBody{
+	display: flex;
+	justify-content: center;
+}
+@media (max-width: 760px){
+   .Box{
+   	margin: 20px;
+   }
+   }

@@ -1,0 +1,37 @@
+.BigBox{
+	width: 40%;
+
+}
+.bigbox__card{
+	display: flex;
+	justify-content: center;
+	color: rgba(0,0,0,0.8);
+	box-shadow: 2px 2px 8px black !important;
+	
+}
+.bigbox__cardBody > div > span {
+	font-size: 1.5rem !important;
+	letter-spacing: 0px !important;
+}
+.bigbox__cardBody {
+	font-size: 3rem !important;
+	letter-spacing: 0px !important;
+}
+.bigbox__cardFooter{
+	font-size: 0.8rem;
+	display: flex;
+	justify-content: center;
+}
+.bigbox__cardTitle{
+	display: flex;
+	justify-content: center;
+}
+@media (max-width: 760px){
+   .bigbox__cardBody > div > span {
+	font-size: 0.7rem !important;
+}
+.bigbox__cardBody {
+	font-size: 1.5rem !important; 
+}
+
+   }

@@ -1,0 +1,34 @@
+.SideDrawer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+    width: 25%;
+    background-color: white
+}
+.sideDrawer__input{
+    color: white !important;
+
+}
+.sideDrawer__close{
+	display: flex;
+	align-self: flex-end;
+   	color: white;
+}
+.sideDrawer__search{
+	color: #E7E7EB !important;
+	background-color: #3C47E9 !important;
+	margin: 10px !important;
+}
+.sideDrawer__cities{
+    list-style-type: none;
+    color: #E7E7EB;
+}
+@media (max-width: 760px){
+    .SideDrawer {
+        width: 100%;
+    }
+    }

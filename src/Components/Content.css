@@ -1,0 +1,45 @@
+
+.content__default{
+	display: flex;
+}
+.content__defaultMessage{
+	border: 1px solid white;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+}
+.content__boxWeather{
+	margin: 30px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.content__weatherDetails{
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+.content__highlight{
+	color: #141f1f;
+	font-weight: bolder;
+	text-align: center;
+}
+.content__weatherDetails2{
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+@media (max-width: 760px){
+	.content__default{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+	}
+	.content__highlight{
+		color: white;
+	}
+	.content__weatherDetails{
+		margin: 0;
+	}
+
+ }
